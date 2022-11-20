@@ -1,0 +1,114 @@
+[
+    {
+        "title": "Python",
+        "category": "General Programming",
+        "text": "Python is the programming language I have used the most, and will be my go-to for smaller research projects and quick turn-arounds.",
+        "rating": 5,
+        "url": "https://www.python.org/"
+    },
+    {
+        "title": "Vue3",
+        "category": "JS Frameworks",
+        "text": "Vue3 is my preferred JS frontend framework (and what this website is written in). Almost all the web dev work I have done is using Vue3.",
+        "rating": 5,
+        "url": "https://vuejs.org/"
+    },
+    {
+        "title": "Ansible",
+        "category": "DevOps",
+        "text": "I have used Ansible for standing up fairly simplistic VMs for dev environments. I really like Ansible but rarely have the need to write a playbook.",
+        "rating": 2,
+        "url": "https://www.ansible.com/"
+    },
+    {
+        "title": "Docker",
+        "category": "DevOps",
+        "text": "I tend to Dockerize almost every app I write. I am very proficient with docker-compose as well, and using multiple containers across a single network.",
+        "rating": 4,
+        "url": "https://www.docker.com/"
+    },
+    {
+        "title": "Matlab",
+        "category": "General Programming",
+        "text": "I have used Matlab extensively in years past (and was a TA for an intro Matlab course) but since college I have not needed to use it.",
+        "rating": 3,
+        "url": "https://www.mathworks.com/products/matlab.html"
+    },
+    {
+        "title": "Java",
+        "category": "General Programming",
+        "text": "Java was the first language I learned and I used to use it for backends with Spring and Thymeleaf. I haven't written any Java recently.",
+        "rating": 3,
+        "url": "https://www.java.com/en/"
+    },
+    {
+        "title": "TypeScript",
+        "category": "JS Frameworks",
+        "text": "In my opinion, JavaScript is irrelevant in modern development so long as TypeScript exists. I prefer to only use TypeScript whenever possible.",
+        "rating": 5,
+        "url": "https://www.typescriptlang.org/"
+    },
+    {
+        "title": "FastAPI",
+        "category": "Python Libraries",
+        "text": "I prefer FastAPI over Flask when standing up Python web backends. It is much more performant, and far easier to use in my experience.",
+        "rating": 5,
+        "url": "https://fastapi.tiangolo.com/"
+    },
+    {
+        "title": "Flask",
+        "category": "Python Libraries",
+        "text": "While I have used Flask quite a bit, I prefer FastAPI. Flask requires so many 3rd party helper libraries that I am not familiar with all of them.",
+        "rating": 4,
+        "url": "https://flask.palletsprojects.com/en/2.2.x/"
+    },
+    {
+        "title": "Rust",
+        "category": "General Programming",
+        "text": "Rust is a language I am quickly learning. It's syntax and safety features are beautiful, and if Rust is the future I want to be a part of it.",
+        "rating": 3,
+        "url": "https://www.rust-lang.org/"
+    },
+    {
+        "title": "React",
+        "category": "JS Frameworks",
+        "text": "I have used React quite a bit in the past, but abandoned it once I learned Vue. I much prefer Vue, but am flexible to the desires of any project.",
+        "rating": 4,
+        "url": "https://reactjs.org/"
+    },
+    {
+        "title": "SQLAlchemy",
+        "category": "Python Libraries",
+        "text": "I have used SQLAlchemy (and Alembic) extensively in my projects. I am constantly learning with it, which is why I love it.",
+        "rating": 4,
+        "url": "https://www.sqlalchemy.org/"
+    },
+    {
+        "title": "React Native",
+        "category": "JS Frameworks",
+        "text": "When I switched from Android to iOS and lost all my apps, I decided to learn React Native. I am still learning it, and finding my pace accelerating.",
+        "rating": 2,
+        "url": "https://reactnative.dev/"
+    },
+    {
+        "title": "C#",
+        "category": "General Programming",
+        "text": "I actually prefer C# to Java, and wish I had the opportunity to do more .NET development in general because of it.",
+        "rating": 3,
+        "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+    },
+    {
+        "title": "C",
+        "category": "General Programming",
+        "text": "It's been a long time since I have seen a seg fault, but I came the closest to an all nighter in my life writing C.",
+        "rating": 1,
+        "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+    },
+    {
+        "title": "Node",
+        "category": "JS Frameworks",
+        "text": "I have used Node for backend servers and some random odd jobs. I generally prefer Node for production systems, but most of my work is research.",
+        "rating": 3,
+        "url": "https://nodejs.org/en/"
+    }
+]

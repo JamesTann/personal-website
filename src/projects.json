@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Prototype for Research Paper",
+        "text": "I implemented the frontend in React for an AI research project that ended up getting published. I am a co-author on the publication.",
+        "url": "https://doi.org/10.1007/s10506-022-09318-7"
+    },
+    {
+        "title": "Website for a Local Small Business",
+        "text": "Several years ago I made my first real website for a local small business. Comparing it to some of my more recent projects, it's cool to see how far I've come in my ability to design.",
+        "url": "http://www.boxfordanimalhospital.com/"
+    },
+    {
+        "title": "College Database Class Website",
+        "text": "I wrote the backend API for interacting with the database used in this project for a college databases class. Databases was one of the classes I still find myself using day to day.",
+        "url": "http://chefskiss.surge.sh/browse"
+    }
+]
