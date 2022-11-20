@@ -23,7 +23,7 @@
     {
         "title": "Docker",
         "category": "DevOps",
-        "text": "I tend to Dockerize almost every app I write. I am very proficient with docker-compose as well, and using multiple containers across a single network.",
+        "text": "I tend to Dockerize almost every app I write. I am very proficient with docker-compose as well, and using multiple containers across a network.",
         "rating": 4,
         "url": "https://www.docker.com/"
     },
@@ -65,7 +65,7 @@
     {
         "title": "Rust",
         "category": "General Programming",
-        "text": "Rust is a language I am quickly learning. It's syntax and safety features are beautiful, and if Rust is the future I want to be a part of it.",
+        "text": "Rust is a language I am actively learning. It's syntax and safety features are beautiful, and if Rust is the future I want to be a part of it.",
         "rating": 3,
         "url": "https://www.rust-lang.org/"
     },

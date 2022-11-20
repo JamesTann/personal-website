@@ -1,7 +1,7 @@
 [
     {
         "title": "Prototype for Research Paper",
-        "text": "I implemented the frontend in React for an AI research project that ended up getting published. I am a co-author on the publication.",
+        "text": "I implemented a React frontend for an AI research project that ended up getting published in the journal Artificial Intelligence and Law. I am a co-author on the publication.",
         "url": "https://doi.org/10.1007/s10506-022-09318-7"
     },
     {
@@ -11,7 +11,7 @@
     },
     {
         "title": "College Database Class Website",
-        "text": "I wrote the backend API for interacting with the database used in this project for a college databases class. Databases was one of the classes I still find myself using day to day.",
+        "text": "I wrote the backend API for interacting with the database used in this project for a college databases class. Databases is one of the classes I still find myself using day to day.",
         "url": "http://chefskiss.surge.sh/browse"
     }
 ]

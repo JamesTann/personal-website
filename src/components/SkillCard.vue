@@ -40,11 +40,11 @@
 import Tooltip from "./Tooltip.vue";
 
 const tooltips = [
-    "I have used this only a few times.",
-    "I have finished small projects with this.",
+    "I have used this before but not in awhile.",
+    "I have finished small projects with this, and used it in the last couple years.",
     "I have used this extensively in the past but might need a refresher.",
-    "I have used this extensively recently.",
-    "I am very proficient with this.",
+    "I have used this extensively recently, but am not an expert.",
+    "I am very proficient with this, and use it regularly.",
 ];
 
 const props = defineProps<{
