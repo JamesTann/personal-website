@@ -1,19 +1,20 @@
 <template>
     <div id="viewport">
-        <div id="circle">
-            <img
-                id="self-portrait"
-                src="./assets/me.jpg"
-                alt=""
-                aria-hidden="true"
-            />
-        </div>
-        <div ref="typedStrings">
-            <p v-for="value in typedValues" :key="value">{{ value }}</p>
-        </div>
-        <div id="typing-container">
-            <h1>I like to make <span ref="typed"></span></h1>
-        </div>
+        <header>
+            <div id="circle">
+                <img
+                    id="self-portrait"
+                    src="./assets/me.jpg"
+                    alt="A picture of me"
+                />
+            </div>
+            <div ref="typedStrings">
+                <p v-for="value in typedValues" :key="value">{{ value }}</p>
+            </div>
+            <div id="typing-container">
+                <h1>I like to make <span ref="typed"></span></h1>
+            </div>
+        </header>
         <div id="links">
             <tooltip text="Connect!" position="left">
                 <a href="https://www.linkedin.com/in/james-d-tanner/">
@@ -44,7 +45,7 @@
             </tooltip>
         </div>
         <bio-card :left="true" :text="bioCards[0].text">
-            <img :src="bioCards[0].image" />
+            <img :src="bioCards[0].image" :alt="bioCards[0].alt" />
         </bio-card>
         <div class="card-container">
             <project-card
@@ -61,7 +62,7 @@
             :text="bio.text"
             :key="idx"
         >
-            <img :src="bio.image" />
+            <img :src="bio.image" :alt="bio.alt" />
         </bio-card>
         <title-card title="Skills" />
         <div class="card-container">
@@ -74,15 +75,23 @@
                 :url="skillCard.url"
             />
         </div>
-        <div id="footer">
+        <footer id="footer">
             <a href="https://www.linkedin.com/in/james-d-tanner/">
-                <img class="connect-icon" src="@/assets/linkedin.png" />
+                <img
+                    class="connect-icon"
+                    src="@/assets/linkedin.png"
+                    alt="LinkedIn Logo"
+                />
             </a>
             <h4 id="footer-text">Made by me, for me. 2022</h4>
             <a href="mailto:jdt103@comcast.net">
-                <img class="connect-icon" src="@/assets/email.png" />
+                <img
+                    class="connect-icon"
+                    src="@/assets/email.png"
+                    alt="Email Logo"
+                />
             </a>
-        </div>
+        </footer>
     </div>
 </template>
 <script setup lang="ts">
@@ -116,18 +125,22 @@ const bioCards = [
     {
         text: "Hello! I'm James Tanner. Thanks for stopping by my website! Be sure to also check out the links above to get in touch. This site is written in Vue3 and proudly served to you by a server I wrote in Rust running on a Raspberry Pi.",
         image: WaveImage,
+        alt: "Wave",
     },
     {
         text: "I went to Dartmouth and graduated Cum Laude in 2021. I double majored in Computer Science and Asian Societies Cultures and Languages with a concentration in Mandarin. I also studied abroad at Beijing Normal University (北京师范大学) in the Fall of 2018. Always interested in finding conversation partners!",
         image: EducationImage,
+        alt: "School",
     },
     {
         text: "I did several software engineering internships in college at Draper Laboratories, Axcelis Technologies, and Fidelity Investments. I also interned at MITRE and joined full time upon graduating college. I am still at MITRE as a software engineer.",
         image: WorkImage,
+        alt: "Work",
     },
     {
         text: "In my free time, I enjoy smaller scale woodworking and DIY projects with electronics. Sustainability is something I am especially passionate about, and zero waste is a life goal for me. When I'm not inside, I like hiking and camping and my next mission is to visit national parks in all 50 states.",
         image: HikingImage,
+        alt: "Hiking",
     },
 ];
 

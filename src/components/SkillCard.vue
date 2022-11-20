@@ -15,7 +15,10 @@
                         :text="tooltips[index - 1]"
                         position="bottom"
                     >
-                        <img src="@/assets/filled-star.svg" />
+                        <img
+                            src="@/assets/filled-star.svg"
+                            :alt="index + ' out of 5'"
+                        />
                     </tooltip>
                     <tooltip
                         v-for="index in 5 - props.rating"
@@ -23,7 +26,10 @@
                         :text="tooltips[props.rating + index - 1]"
                         position="bottom"
                     >
-                        <img src="@/assets/unfilled-star.svg" />
+                        <img
+                            src="@/assets/unfilled-star.svg"
+                            :alt="props.rating + index + ' out of 5'"
+                        />
                     </tooltip>
                 </div>
             </div>
