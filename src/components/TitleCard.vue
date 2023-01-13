@@ -15,6 +15,7 @@ h1 {
     background-color: #e0fbfc;
     border-radius: 1em;
     width: 80%;
+    padding: 0.3em 0;
     margin: 1em;
 }
 </style>
