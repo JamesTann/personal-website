@@ -83,7 +83,7 @@
                     alt="LinkedIn Logo"
                 />
             </a>
-            <h4 id="footer-text">Made by me, for me. 2022</h4>
+            <h4 id="footer-text">Made by me, for me. 2024</h4>
             <a href="mailto:jdt103@comcast.net">
                 <img
                     class="connect-icon"
@@ -128,12 +128,12 @@ const bioCards = [
         alt: "Wave",
     },
     {
-        text: "I went to Dartmouth and graduated Cum Laude in 2021. I double majored in Computer Science and Asian Societies Cultures and Languages with a concentration in Mandarin. I also studied abroad at Beijing Normal University (北京师范大学) in the Fall of 2018. Always interested in finding conversation partners!",
+        text: "I went to Dartmouth and graduated Cum Laude in 2021. I double majored in Computer Science and Asian Societies Cultures and Languages with a concentration in Mandarin. I also studied abroad at Beijing Normal University (北京师范大学) in the Fall of 2018. I am interested in finding conversation partners in the Boston area to improve.",
         image: EducationImage,
         alt: "School",
     },
     {
-        text: "I did several software engineering internships in college at Draper Laboratories, Axcelis Technologies, and Fidelity Investments. I also interned at MITRE and joined full time upon graduating college. I am still at MITRE as a software engineer.",
+        text: "I did several software engineering internships in high school and college at Draper Laboratories, Axcelis Technologies, and Fidelity Investments. I also interned at MITRE and joined full time upon graduating college. I spent two years at MITRE where I honed skills in full stack web dev, dev ops, and task leadership. I currently serve as Vice President of Software Engineering at Krevera. Please see <a href='https://www.linkedin.com/in/james-d-tanner/'>my LinkedIn</a> for my complete work history.",
         image: WorkImage,
         alt: "Work",
     },

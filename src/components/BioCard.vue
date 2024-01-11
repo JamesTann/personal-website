@@ -1,6 +1,6 @@
 <template>
     <div id="bio-container">
-        <div v-if="!props.left">{{ props.text }}</div>
+        <div v-if="!props.left" v-html="props.text"></div>
         <div
             id="icon-container"
             :class="{ left: props.left, right: !props.left }"
@@ -11,7 +11,7 @@
                 <slot></slot>
             </div>
         </div>
-        <div v-if="props.left">{{ props.text }}</div>
+        <div v-if="props.left" v-html="props.text"></div>
     </div>
 </template>
 
