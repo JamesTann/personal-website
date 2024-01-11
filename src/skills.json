@@ -59,7 +59,7 @@
         "title": "Flask",
         "category": "Python Libraries",
         "text": "While I have used Flask quite a bit, I prefer FastAPI. Flask requires so many 3rd party helper libraries that I am not familiar with all of them.",
-        "rating": 4,
+        "rating": 3,
         "url": "https://flask.palletsprojects.com/en/2.2.x/"
     },
     {
@@ -73,7 +73,7 @@
         "title": "React",
         "category": "JS Frameworks",
         "text": "I have used React quite a bit in the past, but abandoned it once I learned Vue. I much prefer Vue, but am flexible to the desires of any project.",
-        "rating": 4,
+        "rating": 3,
         "url": "https://reactjs.org/"
     },
     {
@@ -105,10 +105,31 @@
         "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
     },
     {
-        "title": "Node",
+        "title": "Express",
         "category": "JS Frameworks",
-        "text": "I have used Node for backend servers and some random odd jobs. I generally prefer Node for production systems, but most of my work is research.",
-        "rating": 3,
-        "url": "https://nodejs.org/en/"
+        "text": "I have used Express for a few projects, but I prefer FastAPI for most development. I am comfortable with Express, but not an expert.",
+        "rating": 4,
+        "url": "https://expressjs.com/"
+    },
+    {
+        "title": "Sequelize",
+        "category": "JS Frameworks",
+        "text": "I have used Sequelize with Express and it is my preferred ORM for NodeJS. I especially like the migration support and that they are adding more and more TypeScript support.",
+        "rating": 4,
+        "url": "https://sequelize.org/"
+    },
+    {
+        "title": "AWS",
+        "category": "DevOps",
+        "text": "AWS is something I have been learning more and more about. I am comfortable with EC2, S3, and ECR, but I am still getting experience with the other services.",
+        "rating": 2,
+        "url": "https://aws.amazon.com/"
+    },
+    {
+        "title": "Kubernetes",
+        "category": "DevOps",
+        "text": "I am still getting experience with Kubernetes, but I am comfortable with the basics and am learning more and more about it every day.",
+        "rating": 2,
+        "url": "https://kubernetes.io/"
     }
 ]
