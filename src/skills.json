@@ -120,16 +120,44 @@
     },
     {
         "title": "AWS",
-        "category": "DevOps",
+        "category": "Cloud Architecture",
         "text": "AWS is something I have been learning more and more about. I am comfortable with EC2, S3, and ECR, but I am still getting experience with the other services.",
         "rating": 2,
         "url": "https://aws.amazon.com/"
     },
     {
         "title": "Kubernetes",
-        "category": "DevOps",
+        "category": "Cloud Architecture",
         "text": "I am still getting experience with Kubernetes, but I am comfortable with the basics and am learning more and more about it every day.",
         "rating": 2,
         "url": "https://kubernetes.io/"
+    },
+    {
+        "title": "PostgreSQL",
+        "category": "Databases",
+        "text": "Postgres is my preferred SQL database, mainly because of the helper functions it has that can be used with arrays. The JSON support can also be very useful. ",
+        "rating": 4,
+        "url": "https://www.postgresql.org/"
+    },
+    {
+        "title": "MySQL/MariaDB",
+        "category": "Databases",
+        "text": "Honestly the only reason I have ever used MySQL or MariaDB was so I could use MySQL Workbench. I have found DBeaver also has similar ERD support for Postgres so I have mainly switched to that.",
+        "rating": 3,
+        "url": "https://www.mysql.com/"
+    },
+    {
+        "title": "Elasticsearch",
+        "category": "Databases",
+        "text": "I have mainly used Elasticsearch when working with data scientists to add search capabilities for big data in backend systems.",
+        "rating": 3,
+        "url": "https://www.elastic.co/elasticsearch"
+    },
+    {
+        "title": "MongoDB",
+        "category": "Databases",
+        "text": "Mongo is my preferred NoSQL database. I have used it for a few projects and have found it to be very easy to use and integrate with Python.",
+        "rating": 4,
+        "url": "https://www.mongodb.com/"
     }
 ]
