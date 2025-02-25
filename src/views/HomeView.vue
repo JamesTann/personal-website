@@ -2,11 +2,7 @@
     <div id="viewport">
         <header>
             <div id="circle">
-                <img
-                    id="self-portrait"
-                    src="@/assets/me.jpg"
-                    alt="A picture of me"
-                />
+                <img id="self-portrait" src="@/assets/me.jpg" alt="A picture of me" />
             </div>
             <div ref="typedStrings">
                 <p v-for="value in typedValues" :key="value">{{ value }}</p>
@@ -18,29 +14,17 @@
         <div id="links">
             <tooltip text="Connect!" position="left">
                 <a href="https://www.linkedin.com/in/james-d-tanner/">
-                    <img
-                        class="connect-icon"
-                        src="@/assets/linkedin.png"
-                        alt="LinkedIn Logo"
-                    />
+                    <img class="connect-icon" src="@/assets/linkedin.png" alt="LinkedIn Logo" />
                 </a>
             </tooltip>
             <tooltip text="Checkout my GitHub!" position="top">
                 <a href="https://github.com/JamesTann">
-                    <img
-                        class="connect-icon"
-                        src="@/assets/github.png"
-                        alt="GitHub Logo"
-                    />
+                    <img class="connect-icon" src="@/assets/github.png" alt="GitHub Logo" />
                 </a>
             </tooltip>
             <tooltip text="Email me!" position="right">
                 <a href="mailto:jdt103@comcast.net">
-                    <img
-                        class="connect-icon"
-                        src="@/assets/email.png"
-                        alt="Email Logo"
-                    />
+                    <img class="connect-icon" src="@/assets/email.png" alt="Email Logo" />
                 </a>
             </tooltip>
         </div>
@@ -53,6 +37,7 @@
                 :title="projectCard.title"
                 :text="projectCard.text"
                 :url="projectCard.url"
+                :key="projectCard.title"
             />
         </div>
         <title-card title="About Me" />
@@ -73,91 +58,84 @@
                 :rating="skillCard.rating"
                 :text="skillCard.text"
                 :url="skillCard.url"
+                :key="skillCard.title"
             />
         </div>
         <footer id="footer">
             <a href="https://www.linkedin.com/in/james-d-tanner/">
-                <img
-                    class="connect-icon"
-                    src="@/assets/linkedin.png"
-                    alt="LinkedIn Logo"
-                />
+                <img class="connect-icon" src="@/assets/linkedin.png" alt="LinkedIn Logo" />
             </a>
             <h4 id="footer-text">Made by me, for me. 2024</h4>
             <a href="mailto:jdt103@comcast.net">
-                <img
-                    class="connect-icon"
-                    src="@/assets/email.png"
-                    alt="Email Logo"
-                />
+                <img class="connect-icon" src="@/assets/email.png" alt="Email Logo" />
             </a>
         </footer>
     </div>
 </template>
 <script setup lang="ts">
-import TitleCard from "@/components/TitleCard.vue";
-import Typed from "typed.js";
-import { onMounted, ref } from "vue";
-import SkillCard from "@/components/SkillCard.vue";
-import ProjectCard from "@/components/ProjectCard.vue";
-import BioCard from "@/components/BioCard.vue";
-import skills from "@/skills.json";
-import projects from "@/projects.json";
-import WaveImage from "@/assets/wave.svg";
-import EducationImage from "@/assets/education.svg";
-import WorkImage from "@/assets/work.svg";
-import HikingImage from "@/assets/hiking.svg";
-import Tooltip from "@/components/Tooltip.vue";
+import EducationImage from '@/assets/education.svg'
+import HikingImage from '@/assets/hiking.svg'
+import WaveImage from '@/assets/wave.svg'
+import WorkImage from '@/assets/work.svg'
+import BioCard from '@/components/BioCard.vue'
+import Tooltip from '@/components/PositionedTooltip.vue'
+import ProjectCard from '@/components/ProjectCard.vue'
+import SkillCard from '@/components/SkillCard.vue'
+import TitleCard from '@/components/TitleCard.vue'
+import projects from '@/projects.json'
+import skills from '@/skills.json'
+import Typed from 'typed.js'
+import { onMounted, ref } from 'vue'
 
-const typed = ref<HTMLSpanElement>();
-const typedStrings = ref<HTMLDivElement>();
+const typed = ref<HTMLSpanElement>()
+const typedStrings = ref<HTMLDivElement>()
 
 const typedValues = [
-    "apps",
-    "websites",
-    "things with wood",
-    "web backends",
-    "databases",
-    "projects happen",
-];
+    'apps',
+    'websites',
+    'things with wood',
+    'web backends',
+    'databases',
+    'projects happen',
+]
 
 const bioCards = [
     {
         text: "Hello! I'm James Tanner. Thanks for stopping by my website! Be sure to also check out the links above to get in touch. This site is written in Vue3 and proudly served to you by a server I wrote in Rust running on a Raspberry Pi.",
         image: WaveImage,
-        alt: "Wave",
+        alt: 'Wave',
     },
     {
-        text: "I went to Dartmouth and graduated Cum Laude in 2021. I double majored in Computer Science and Asian Societies Cultures and Languages with a concentration in Mandarin. I also studied abroad at Beijing Normal University (北京师范大学) in the Fall of 2018. I am interested in finding conversation partners in the Boston area to improve.",
+        text: 'I went to Dartmouth and graduated Cum Laude in 2021. I double majored in Computer Science and Asian Societies Cultures and Languages with a concentration in Mandarin. I also studied abroad at Beijing Normal University (北京师范大学) in the Fall of 2018. I am interested in finding conversation partners in the Boston area to improve.',
         image: EducationImage,
-        alt: "School",
+        alt: 'School',
     },
     {
         text: "I did several software engineering internships in high school and college at Draper Laboratories, Axcelis Technologies, and Fidelity Investments. I also interned at MITRE and joined full time upon graduating college. I spent two years at MITRE where I honed skills in full stack web dev, dev ops, and task leadership. I currently serve as Vice President of Software Engineering at Krevera. Please see <a href='https://www.linkedin.com/in/james-d-tanner/'>my LinkedIn</a> for my complete work history.",
         image: WorkImage,
-        alt: "Work",
+        alt: 'Work',
     },
     {
         text: "In my free time, I enjoy smaller scale woodworking and DIY projects with electronics. Sustainability is something I am especially passionate about, and zero waste is a life goal for me. When I'm not inside, I like hiking and camping and my next mission is to visit national parks in all 50 states.",
         image: HikingImage,
-        alt: "Hiking",
+        alt: 'Hiking',
     },
-];
+]
 
-const skillCards = ref(skills.sort((a, b) => b.rating - a.rating));
-const projectCards = ref(projects);
+const skillCards = ref(skills.sort((a, b) => b.rating - a.rating))
+const projectCards = ref(projects)
 
 onMounted(() => {
     if (typed.value)
         new Typed(typed.value, {
             stringsElement: typedStrings.value,
             loop: true,
-            cursorChar: "_",
+            cursorChar: '_',
             backDelay: 1500,
             typeSpeed: 25,
             backSpeed: 25,
-        });
-});
+        })
+})
 </script>
 
 <style scoped>

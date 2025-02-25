@@ -15,10 +15,7 @@
                         :text="tooltips[index - 1]"
                         position="bottom"
                     >
-                        <img
-                            src="@/assets/filled-star.svg"
-                            :alt="index + ' out of 5'"
-                        />
+                        <img src="@/assets/filled-star.svg" :alt="index + ' out of 5'" />
                     </tooltip>
                     <tooltip
                         v-for="index in 5 - props.rating"
@@ -37,23 +34,23 @@
     </div>
 </template>
 <script setup lang="ts">
-import Tooltip from "./Tooltip.vue";
+import Tooltip from './PositionedTooltip.vue'
 
 const tooltips = [
-    "I have used this before but not in awhile.",
-    "I have finished small projects with this, and used it in the last couple years.",
-    "I have used this extensively in the past but might need a refresher.",
-    "I have used this extensively recently, but am not an expert.",
-    "I am very proficient with this, and use it regularly.",
-];
+    'I have used this before but not in awhile.',
+    'I have finished small projects with this, and used it in the last couple years.',
+    'I have used this extensively in the past but might need a refresher.',
+    'I have used this extensively recently, but am not an expert.',
+    'I am very proficient with this, and use it regularly.',
+]
 
 const props = defineProps<{
-    title: string;
-    text: string;
-    rating: number;
-    category: string;
-    url: string;
-}>();
+    title: string
+    text: string
+    rating: number
+    category: string
+    url: string
+}>()
 </script>
 
 <style scoped>
