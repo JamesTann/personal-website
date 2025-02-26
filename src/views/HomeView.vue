@@ -8,7 +8,7 @@
                 <p v-for="value in typedValues" :key="value">{{ value }}</p>
             </div>
             <div id="typing-container">
-                <h1>I like to make <span ref="typed"></span></h1>
+                <h1>I like to build <span ref="typed"></span></h1>
             </div>
         </header>
         <div id="links">
@@ -65,7 +65,7 @@
             <a href="https://www.linkedin.com/in/james-d-tanner/">
                 <img class="connect-icon" src="@/assets/linkedin.png" alt="LinkedIn Logo" />
             </a>
-            <h4 id="footer-text">Made by me, for me. 2024</h4>
+            <h4 id="footer-text">Made by me, for me. 2025</h4>
             <a href="mailto:jdt103@comcast.net">
                 <img class="connect-icon" src="@/assets/email.png" alt="Email Logo" />
             </a>
@@ -96,17 +96,18 @@ const typedValues = [
     'things with wood',
     'web backends',
     'databases',
-    'projects happen',
+    'cloud infrastructure',
+    'computers',
 ]
 
 const bioCards = [
     {
-        text: "Hello! I'm James Tanner. Thanks for stopping by my website! Be sure to also check out the links above to get in touch. This site is written in Vue3 and proudly served to you by a server I wrote in Rust running on a Raspberry Pi.",
+        text: "Hello! I'm James Tanner. Thanks for stopping by my website! Be sure to also check out the links above to get in touch. This site is written in Vue3 and proudly served to you by a server I wrote in Rust running on an <a href='https://unraid.net'>Unraid</a> server in a Docker container.",
         image: WaveImage,
         alt: 'Wave',
     },
     {
-        text: 'I went to Dartmouth and graduated Cum Laude in 2021. I double majored in Computer Science and Asian Societies Cultures and Languages with a concentration in Mandarin. I also studied abroad at Beijing Normal University (北京师范大学) in the Fall of 2018. I am interested in finding conversation partners in the Boston area to improve.',
+        text: 'I went to Dartmouth and graduated Cum Laude in 2021. I double majored in Computer Science and Asian Societies Cultures and Languages with a concentration in Mandarin. I also studied abroad at Beijing Normal University (北京师范大学) in the Fall of 2018. I am interested in finding conversation partners in the Boston area to improve, as I have become out of practice due to lack of use.',
         image: EducationImage,
         alt: 'School',
     },
@@ -116,7 +117,7 @@ const bioCards = [
         alt: 'Work',
     },
     {
-        text: "In my free time, I enjoy smaller scale woodworking and DIY projects with electronics. Sustainability is something I am especially passionate about, and zero waste is a life goal for me. When I'm not inside, I like hiking and camping and my next mission is to visit national parks in all 50 states.",
+        text: "In my free time, I enjoy smaller scale woodworking and DIY projects with electronics. I also enjoy home automation and self-hosting. Sustainability is something I am especially passionate about, and zero waste is a life goal for me. When I'm not inside, I like hiking and camping and my next mission is to visit national parks/sites in all 50 states.",
         image: HikingImage,
         alt: 'Hiking',
     },

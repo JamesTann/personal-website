@@ -24,7 +24,7 @@
         "title": "Docker",
         "category": "DevOps",
         "text": "I tend to Dockerize almost every app I write. I am very proficient with docker-compose as well, and using multiple containers across a network.",
-        "rating": 4,
+        "rating": 5,
         "url": "https://www.docker.com/"
     },
     {
@@ -51,7 +51,7 @@
     {
         "title": "FastAPI",
         "category": "Python Libraries",
-        "text": "I prefer FastAPI over Flask when standing up Python web backends. It is much more performant, and far easier to use in my experience.",
+        "text": "I prefer FastAPI over Flask when standing up Python web backends. It is much more performant, and far more convenient when it comes to dependency injection.",
         "rating": 5,
         "url": "https://fastapi.tiangolo.com/"
     },
@@ -86,7 +86,7 @@
     {
         "title": "React Native",
         "category": "JS Frameworks",
-        "text": "When I switched from Android to iOS and lost all my apps, I decided to learn React Native. I am still learning it, and finding my pace accelerating.",
+        "text": "When I switched from Android to iOS and lost all my apps, I decided to learn React Native. I wish I had more time for it.",
         "rating": 2,
         "url": "https://reactnative.dev/"
     },
@@ -108,28 +108,28 @@
         "title": "Express",
         "category": "JS Frameworks",
         "text": "I have used Express for a few projects, but I prefer FastAPI for most development. I am comfortable with Express, but not an expert.",
-        "rating": 4,
+        "rating": 3,
         "url": "https://expressjs.com/"
     },
     {
         "title": "Sequelize",
         "category": "JS Frameworks",
         "text": "I have used Sequelize with Express and it is my preferred ORM for NodeJS. I especially like the migration support and that they are adding more and more TypeScript support.",
-        "rating": 4,
+        "rating": 3,
         "url": "https://sequelize.org/"
     },
     {
         "title": "AWS",
         "category": "Cloud Architecture",
-        "text": "AWS is something I have been learning more and more about. I am comfortable with EC2, S3, and ECR, but I am still getting experience with the other services.",
-        "rating": 2,
+        "text": "AWS is something I have used extensively in my current role. I have spun up services on ECS and EKS and am very comfortable with Cognito and Amplify.",
+        "rating": 4,
         "url": "https://aws.amazon.com/"
     },
     {
         "title": "Kubernetes",
         "category": "Cloud Architecture",
-        "text": "I am still getting experience with Kubernetes, but I am comfortable with the basics and am learning more and more about it every day.",
-        "rating": 2,
+        "text": "Kubernetes is something I had to learn for my current role. I am now quite familiar with Helm, and can navigate a cluster with kubectl efficiently.",
+        "rating": 4,
         "url": "https://kubernetes.io/"
     },
     {
@@ -159,5 +159,26 @@
         "text": "Mongo is my preferred NoSQL database. I have used it for a few projects and have found it to be very easy to use and integrate with Python.",
         "rating": 4,
         "url": "https://www.mongodb.com/"
+    },
+    {
+        "title": "d3.js",
+        "category": "JS Frameworks",
+        "text": "I have used d3.js to make several data visualizations, but I am not an expert. It is something I am currently expanding on in my role.",
+        "rating": 3,
+        "url": "https://d3js.org/"
+    },
+    {
+        "title": "ROS",
+        "category": "System Management",
+        "text": "Much of the software I write in my current role runs in ROS or micro-ROS and leverages its DDS capabilities to handle communication between Docker containers.",
+        "rating": 4,
+        "url": "https://www.ros.org/"
+    },
+    {
+        "title": "Unraid",
+        "category": "System Management",
+        "text": "I have used Unraid for my personal server for years (it's serving this website). I also run Home Assistant, Pi-hole and Plex, as well as many other things.",
+        "rating": 4,
+        "url": "https://unraid.net/"
     }
 ]
